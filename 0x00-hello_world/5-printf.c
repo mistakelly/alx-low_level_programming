@@ -1,4 +1,4 @@
-#inlcude < Stdio.h >
+#include < Stdio.h >
 /**
 *main - Entry point
 *
