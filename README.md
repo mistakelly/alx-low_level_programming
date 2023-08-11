@@ -1,2 +1,1 @@
-# alx-low_level_programming
-all about C-language.
+this is a repo for c-programming
