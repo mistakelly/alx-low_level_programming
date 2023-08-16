@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -11,4 +12,4 @@ void jack_bauer(void)
 	i = 0;
 
 	while (i < 24)
-
+}
