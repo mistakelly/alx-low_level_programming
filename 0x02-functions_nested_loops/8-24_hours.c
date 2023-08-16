@@ -1,15 +1,33 @@
 #include <stdio.h>
 #include "main.h"
-
 /**
- * jack_bauer - prints every minute of the day of Jack Bauer
- * starting from 00:00 to 23:59
+ * jack_bauer - function to print absolute values
+ *
+ * Return: return depends on input
  */
+
 void jack_bauer(void)
 {
-	int i, j;
+	int i;
+	int j;
+	int k;
+	int l;
 
-	i = 0;
-
-	while (i < 24)
+	for (i = 0; i < 3; i++)
+	{
+		for (j = i; j < 4; j++)
+		{
+			for (k = 0; k < 6; k++)
+			{
+				for (l = 0; l < 10; l++)
+				{
+					_putchar(i);
+					_putchar(j);
+					_putchar(':');
+					_putchar(k);
+					_putchar(l);
+				}
+			}
+		}
+	}
 }
