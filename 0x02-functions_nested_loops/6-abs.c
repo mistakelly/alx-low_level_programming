@@ -1,12 +1,16 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - main fuction
- *
- * Return: return 0 as successs
+ * _abs - computes the absolute value of an integer
+ * @n: the int to check
+ * Return: the absolute value of int
  */
-int main(void)
+int _abs(int n)
 {
-	printf("_putchar\n");
-	return (0);
+	if (n >= 0)
+	{
+		return (n);
+	}
+	return (-n);
 }
+
