@@ -1,32 +1,26 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
- * main - finds and prints the sum of the even-valued terms
- * followed by a new line
- * Return: Always 0 (Success)
+ * main - function to print absolute values
+ *
+ * Return: returns 0 for end of program
  */
+
 int main(void)
 {
 	int i;
-	unsigned long int j, k, next, sum;
+	int sum;
+	unsigned long long fibo[];
 
-	j = 1;
-	k = 2;
-	sum = 0;
+	fibo[0] = 1;
+	fibo[1] = 2;
 
-	for (i = 1; i <= 33; ++i)
+	for (i = 2; fibo[i] < 4000000; i++)
 	{
-		if (j < 4000000 && (j % 2) == 0)
-		{
-			sum = sum + j;
-		}
-		next = j + k;
-		j = k;
-		k = next;
+		fibo[i] = fibo[i - 1] + fibo[i - 2];
+		if (fibo[i] % 2 == 0)
+			sum += fibo[i]
 	}
-
-	printf("%lu\n", sum);
-
+	printf("%d\n", sum);
 	return (0);
 }
-
