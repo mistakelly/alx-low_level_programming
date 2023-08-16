@@ -19,7 +19,7 @@ int main(void)
 	{
 		fibo[i] = fibo[i - 1] + fibo[i - 2];
 		if (fibo[i] % 2 == 0)
-			sum += fibo[i]
+			sum += fibo[i];
 	}
 	printf("%d\n", sum);
 	return (0);
