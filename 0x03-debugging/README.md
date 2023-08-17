@@ -1,2 +1,1 @@
-this is the repository for debugging project.
-
+this repo is for c- debugging
