@@ -1,11 +1,13 @@
 #include "main.h"
+
 /**
  * main - check the code.
  *
+ *@c: number to be to be checked
  * Return: Always 0.
 */
 
-int _isupper(int x)
+int _isupper(int c)
 
 {
 
