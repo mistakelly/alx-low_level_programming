@@ -1,1 +1,1 @@
-this is a repo for c-programming
+read me for static libraries
