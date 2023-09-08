@@ -16,11 +16,11 @@ void print_rev(char *s)
 
 	int end = length - 1;
 
-	while (s[i] != '\0')
+	while (*s != '\0')
 	{
 		length++;
+		s++;
 
-		i++;
 	}
 
 	while (start < end)
