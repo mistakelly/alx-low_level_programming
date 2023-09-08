@@ -30,6 +30,9 @@ void print_rev(char *s)
 
 		start++;
 		end--;
+		_putchar(s);
 	}
+
+	_putchar('\n');
 
 }
