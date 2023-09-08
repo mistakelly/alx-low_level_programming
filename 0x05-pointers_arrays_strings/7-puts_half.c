@@ -11,7 +11,7 @@ void puts_half(char *str)
 
 	int midpoint;
 
-	while (str[i] != '\0')
+	while (str[length] != '\0')
 		length++;
 	midpoint = length / 2;
 
