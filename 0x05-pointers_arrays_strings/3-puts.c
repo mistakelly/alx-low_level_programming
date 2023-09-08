@@ -13,9 +13,9 @@ void _puts(char *s)
 	while (str[i] != '\0')
 	{
 		/* code */
-		_putkelly(str[i]);
+		_putchar(str[i]);
 		i++;
 	}
-	_putkelly('\n');
+	_putchar('\n');
 }
 
