@@ -10,6 +10,10 @@ void print_rev(char *s)
 {
 	int length = 0;
 
+	int start = 0;
+
+	int end;
+
 	while (s[length]  != '\0')
 	{
 		length++;
@@ -17,9 +21,7 @@ void print_rev(char *s)
 
 	}
 
-	int start = 0;
-
-	int end = length - 1;
+	end = length - 1;
 
 	while (start < end)
 	{
