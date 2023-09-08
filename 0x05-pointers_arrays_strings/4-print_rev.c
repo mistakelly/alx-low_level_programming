@@ -27,5 +27,4 @@ void print_rev(char *s)
 		s[end] = temp;
 	}
 
-	return (s);
 }
