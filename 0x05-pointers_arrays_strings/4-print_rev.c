@@ -28,7 +28,7 @@ void print_rev(char *s)
 		s[start] = s[end];
 		s[end] = temp;
 
-		_putchar(s[lenght]);
+		_putchar(s[length]);
 		start++;
 		end--;
 	}
