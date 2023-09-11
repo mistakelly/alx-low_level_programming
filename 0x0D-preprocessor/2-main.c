@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	printf("%s\xA, __FILE__");
+	printf("%s\xA", __FILE__);
 	return (0);
 
 }
