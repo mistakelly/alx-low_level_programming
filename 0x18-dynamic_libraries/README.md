@@ -1,1 +1,1 @@
-this is for dynamic library in c
+this is for dynamic libray
