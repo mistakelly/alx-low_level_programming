@@ -1,1 +1,1 @@
-this is for dynamic libray
+this is for dynamic library
